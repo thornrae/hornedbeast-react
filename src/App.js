@@ -6,8 +6,6 @@ import allBeasts from "./data.json";
 import SelectedBeast from "./SelectedBeast.js";
 import Form from "react-bootstrap/Form";
 
-// import HornForm from "./HornForm";
-
 class App extends React.Component {
   constructor(props) {
     super(props);
