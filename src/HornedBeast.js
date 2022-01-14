@@ -14,6 +14,7 @@ class HornedBeast extends React.Component {
 
   handleFavorites = () => {
     this.setState({ favorites: this.state.favorites + 1 });
+    this.props.beastModalDisplay(this.props.title);
   };
 
   render() {
@@ -31,13 +32,3 @@ class HornedBeast extends React.Component {
 }
 
 export default HornedBeast;
-
-{
-  /* <div>
-  <h3>{this.props.title}</h3>
-  <img src={this.props.img} alt="" />
-  <p>{this.props.description}</p>
-  <p>favorites: {this.state.favorites}</p>
-  <button onClick={this.handleFavorites}>fave me</button>
-</div>; */
-}
