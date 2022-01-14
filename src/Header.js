@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav";
 class Header extends React.Component {
   render() {
     return (
-      <Navbar fixed="top" bg="light" variant="light">
+      <Navbar sticky="top" bg="light" variant="light">
         <Container>
           <Navbar.Brand href="#home">Gallery of Horned Beasts</Navbar.Brand>
           <Nav className="me-auto">
