@@ -2,7 +2,7 @@
 
 Author: Taylor Thornton
 
-Deployed Link:
+Deployed Link: https://modest-goldwasser-c83625.netlify.app/
 
 ### Technologies Used:
 
